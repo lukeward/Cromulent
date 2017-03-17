@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Cromulent_Example' do
+  pod 'Cromulent', :path => '../'
+
+  target 'Cromulent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
