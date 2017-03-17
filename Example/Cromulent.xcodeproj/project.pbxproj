@@ -48,7 +48,7 @@
 		AF843930D76929CE208444F4 /* Pods_Cromulent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cromulent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1647C8BE433B78FF716C585 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA84F599765D96D1B448DDD6 /* Pods_Cromulent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cromulent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F410DEC149D134A390D6E917 /* Cromulent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cromulent.podspec; path = ../Cromulent.podspec; sourceTree = "<group>"; };
+		F410DEC149D134A390D6E917 /* Cromulent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Cromulent.podspec; path = ../Cromulent.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
