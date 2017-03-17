@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		63FA874D2CAB26304BF10B25 /* Pods_Cromulent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA84F599765D96D1B448DDD6 /* Pods_Cromulent_Tests.framework */; };
+		711F2D801E7C212B00852611 /* Cromulent.swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 711F2D7F1E7C212B00852611 /* Cromulent.swift-version */; };
 		8DB76F137B87931B324135A2 /* Pods_Cromulent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF843930D76929CE208444F4 /* Pods_Cromulent_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +43,12 @@
 		607FACE51AFB9204008FA782 /* Cromulent_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cromulent_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		80B9DE13B4D9798D55D8F4BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		711F2D7F1E7C212B00852611 /* Cromulent.swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cromulent.swift-version"; sourceTree = "<group>"; };
+		80B9DE13B4D9798D55D8F4BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AF843930D76929CE208444F4 /* Pods_Cromulent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cromulent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1647C8BE433B78FF716C585 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1647C8BE433B78FF716C585 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA84F599765D96D1B448DDD6 /* Pods_Cromulent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cromulent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F410DEC149D134A390D6E917 /* Cromulent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Cromulent.podspec; path = ../Cromulent.podspec; sourceTree = "<group>"; };
+		F410DEC149D134A390D6E917 /* Cromulent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cromulent.podspec; path = ../Cromulent.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				F410DEC149D134A390D6E917 /* Cromulent.podspec */,
+				711F2D7F1E7C212B00852611 /* Cromulent.swift-version */,
 				C1647C8BE433B78FF716C585 /* README.md */,
 				80B9DE13B4D9798D55D8F4BA /* LICENSE */,
 			);
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711F2D801E7C212B00852611 /* Cromulent.swift-version in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

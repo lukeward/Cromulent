@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Cromulent'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Cromulent.'
+  s.version          = '0.0.1'
+  s.summary          = 'A perfectly cromulent framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A long description of the pod here. Here some more text to make it extra long.
                        DESC
 
-  s.homepage         = 'https://github.com/lukeward@hotmail.com/Cromulent'
+  s.homepage         = 'https://github.com/lukeward/Cromulent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lukeward@hotmail.com' => 'lukeward@hotmail.com' }
-  s.source           = { :git => 'https://github.com/lukeward@hotmail.com/Cromulent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lukeward/Cromulent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
