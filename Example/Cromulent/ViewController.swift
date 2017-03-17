@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Cromulent
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let h = Helpers()
+        print("8 + 2 is \(h.addTwo(num: 8))")
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,16 @@
+PODS:
+  - Cromulent (0.1.0)
+
+DEPENDENCIES:
+  - Cromulent (from `../`)
+
+EXTERNAL SOURCES:
+  Cromulent:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Cromulent: a72fac1a9d05808ea5360591899356576884d824
+
+PODFILE CHECKSUM: 9c0dc28974df2749e7c3e929ece0295b3b7f24e5
+
+COCOAPODS: 1.2.0
