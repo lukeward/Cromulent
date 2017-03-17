@@ -13,6 +13,6 @@ public class Helpers {
     public init() {}
     
     public func addTwo(num: Int) -> Int {
-        return num + 4
+        return num + 2
     }
 }
