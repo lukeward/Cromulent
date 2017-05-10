@@ -1,19 +1,19 @@
 {
   "name": "Cromulent",
-  "version": "0.1.0",
-  "summary": "A short description of Cromulent.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lukeward@hotmail.com/Cromulent",
+  "version": "0.0.3",
+  "summary": "A perfectly cromulent framework.",
+  "description": "A long description of the pod here. Here some more text to make it extra long.",
+  "homepage": "https://github.com/lukeward/Cromulent",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lukeward@hotmail.com": "lukeward@hotmail.com"
+    "Luke Ward": "lukeward@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/lukeward@hotmail.com/Cromulent.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/lukeward/Cromulent.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"

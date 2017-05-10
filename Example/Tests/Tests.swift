@@ -15,20 +15,23 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-        
         let helpers = Helpers()
         let result = helpers.addTwo(num: 8)
         
         XCTAssertEqual(result, 10)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testExample2() {
+        let sut = Cat1Class()
+        let result = sut.addTwo(num: 28)
+        
+        XCTAssertEqual(result, 30)
     }
     
+    func testExample3() {
+        let sut = Cat2Class()
+        let result = sut.addTwo(num: 28)
+        
+        XCTAssertEqual(result, 30)
+    }
 }
