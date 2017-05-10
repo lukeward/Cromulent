@@ -11,6 +11,7 @@
 		319E44310997E90E9E0DF7C32C834D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6025F48B54185D61B23559A37904A6A7 /* Pods-Cromulent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDED58886277AB32E90F1837AED3611A /* Pods-Cromulent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		711F2D7E1E7C1B2800852611 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F2D7D1E7C1B2800852611 /* Helpers.swift */; };
+		7156F82A1EC3840C0089A1B6 /* Cat1Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7156F8291EC3840C0089A1B6 /* Cat1Class.swift */; };
 		7B7DCA24E9B0487279384F6BEF46BD17 /* Pods-Cromulent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91771534E50F188BF67A17C9DD7B4E8A /* Pods-Cromulent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90938C23B31208189B73F60276DF7FCD /* Pods-Cromulent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6545F97AA73CC2E86FFDAEA448DA2 /* Pods-Cromulent_Example-dummy.m */; };
 		9DAD1F789D397A41781964ACFF62BC7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 		63FC6A407AF9BE50C4A80FBCD40300E2 /* Cromulent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cromulent.modulemap; sourceTree = "<group>"; };
 		6792EDFBF7DA024834735FE75F52FD74 /* Pods-Cromulent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cromulent_Tests-resources.sh"; sourceTree = "<group>"; };
 		711F2D7D1E7C1B2800852611 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		7156F8291EC3840C0089A1B6 /* Cat1Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cat1Class.swift; path = Cat1/Cat1Class.swift; sourceTree = "<group>"; };
 		7738E9C6617C5E6AFB1682E51EBFAE6E /* Pods-Cromulent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cromulent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84CB005426E5513984B7F849CA61B38C /* Pods_Cromulent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cromulent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B373B8A79B3FAB5621FC1D9A47EEA2D /* Pods-Cromulent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cromulent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,9 +141,18 @@
 			path = "Target Support Files/Pods-Cromulent_Tests";
 			sourceTree = "<group>";
 		};
+		7156F82B1EC3841B0089A1B6 /* Cat1 */ = {
+			isa = PBXGroup;
+			children = (
+				7156F8291EC3840C0089A1B6 /* Cat1Class.swift */,
+			);
+			name = Cat1;
+			sourceTree = "<group>";
+		};
 		74773FFDBF2983E4B1027D677BB9B357 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7156F82B1EC3841B0089A1B6 /* Cat1 */,
 				711F2D7D1E7C1B2800852611 /* Helpers.swift */,
 			);
 			path = Classes;
@@ -354,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45063EF259BC714A4E49D881DAD82D3 /* Cromulent-dummy.m in Sources */,
+				7156F82A1EC3840C0089A1B6 /* Cat1Class.swift in Sources */,
 				711F2D7E1E7C1B2800852611 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Cromulent'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A perfectly cromulent framework.'
 
 # This description is used to generate tags and improve search results.
@@ -16,10 +16,10 @@ A long description of the pod here. Here some more text to make it extra long.
                        DESC
 
   s.homepage         = 'https://github.com/lukeward/Cromulent'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lukeward@hotmail.com' => 'lukeward@hotmail.com' }
+  s.author           = { 'Luke Ward' => 'lukeward@hotmail.com' }
   s.source           = { :git => 'https://github.com/lukeward/Cromulent.git', :tag => s.version.to_s }
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
